@@ -1,0 +1,29 @@
+.setting__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--main-border);
+  width: 100%;
+  height: 57px;
+  line-height: 57px;
+}
+
+.setting__list:last-child {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.setting-section:first-child {
+  margin-bottom: 30px;
+}
+
+.setting__left {
+  display: flex;
+  align-items: center;
+}
+
+.setting__left p {
+  margin-left: 10px;
+}
+.setting__left > .red-circle {
+  line-height: 16px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - JordyTalk</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icon">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-comment fa-lg plus">
+          <p>+</p>
+        </i>
+        <i class="fas fa-music fa-lg"></i>
+        <i class="fas fa-cog fa-lg"></i>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <a href="chat-screen.html">
+        <div class="profile-bar friend-profile">
+          <div class="profile-left">
+            <div class="profile__img-md">
+              <img src="img/chat.jpg" />
+            </div>
+
+            <div class="profile__txtbox">
+              <p class="profile__name">FamilyTalk</p>
+              <p class="profile__txt">
+                I just have a plan tonight, I'll be late!!
+              </p>
+            </div>
+          </div>
+
+          <div class="profile-right">
+            <div class="profile-txtbox">
+              <p class="chats-time">18:22</p>
+              <div class="red-circle chats-circle">5</div>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__a" href="friends.html"
+              ><i class="fas fa-user fa-lg"></i
+            ></a>
+          </li>
+
+          <li class="nav__btn">
+            <a class="nav__a" href="chats.html">
+              <i class="fas fa-comment fa-lg nav__btnmsg">
+                <div class="red-circle nav__msg">5</div>
+              </i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__a" href="find.html">
+              <i class="fas fa-search fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__a" href="more.html">
+              <i class="fas fa-ellipsis-h fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

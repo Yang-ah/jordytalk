@@ -1,0 +1,27 @@
+.icon__box-empty {
+  width: 80px;
+  height: 81px;
+}
+
+.sug__section {
+  border-top: var(--main-border);
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.sug__title {
+  margin-bottom: 10px;
+}
+.sug__icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(223, 235, 221);
+  border-radius: 5px;
+}
+.sug__txt {
+  padding-top: 5px;
+}
+
+.icon-section-space {
+  padding-top: 10px;
+}

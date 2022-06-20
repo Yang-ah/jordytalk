@@ -1,0 +1,126 @@
+#chat-screen {
+  background-color: rgb(180, 218, 171);
+  height: 100000vh;
+}
+
+.chat-screen-nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 247, 214);
+  border-top: var(--main-border);
+  padding: 2px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  line-height: 46px;
+  display: flex;
+  font-size: 20px;
+  color: black;
+  align-items: center;
+}
+.i-box {
+  width: 61.33px;
+}
+
+.nav__chatbox {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  height: 39px;
+  justify-content: space-between;
+  border-radius: 20px;
+  border: var(--main-border);
+  background-color: rgba(253, 223, 109, 0.3);
+}
+.nav__emg {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.chat-screen__btn {
+  width: 35px;
+  height: 35px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  margin-left: 5px;
+  border: none;
+}
+
+.nav__chatinput {
+  background-color: rgba(1, 1, 1, 0);
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+}
+.chat-screen-nav {
+  justify-content: space-between;
+}
+
+/* chat-screen-nav end  */
+
+.date-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.date-bar p {
+  width: auto;
+  padding: 7px 11px;
+  background-color: rgba(1, 1, 1, 0.2);
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.your-profile {
+  display: flex;
+}
+
+.your-img {
+  width: 40px;
+  height: 40px;
+  background-color: tomato;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+.your-nm {
+  margin-bottom: 5px;
+}
+
+.msgbox {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.msgbox__msg {
+  width: auto;
+  padding: 5px 10px;
+  background-color: rgba(1, 1, 1, 0.3);
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.your-profile .msgbox__msg {
+  border-top-left-radius: 0;
+}
+
+.my-profile .msgbox__msg {
+  border-top-right-radius: 0;
+  background-color: var(--yellow);
+}
+
+.msg__time {
+  padding: 0 5px;
+  font-size: 12px;
+}
+
+.my-profile {
+  display: flex;
+  justify-content: end;
+}
